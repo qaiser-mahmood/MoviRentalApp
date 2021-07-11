@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.Nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.movie-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 40rem;
+  margin-left: 20rem;
+}
+.movie-div button{
+  width: 5rem;
+  height: 2rem;
+}
+/* .movie-div > *{
+  margin-right: 10rem;
+} */
